@@ -3,7 +3,7 @@
 React Native TextInput with auto height and multiline support
 
 <p align="left">
-  <img src="https://github.com/dariyd/rn-autoheight-input/blob/master/Input_demo.gif" width="500">
+  <img src="https://raw.githubusercontent.com/dariyd/rn-autoheight-input/master/Input_demo.gif" width="200">
 </p>
 
 ## Installation
@@ -46,6 +46,7 @@ import InputView from 'rn-autoheight-input'
     } 
   /> 
 </KeyboardAwareScrollView>
+```
 
 `onContentSizeChange` is a callback function which is called when content size of input changes. This can be used to scroll to this input when cursur position changes.
 
@@ -72,3 +73,10 @@ All the `TextInput` props will be passed.
 | `onChangeText` | `function` | callback function with `text` argument which is called when value of input changes. |
 
 
+## License
+
+MIT.
+
+## Author
+
+Dariy D.
