@@ -1,0 +1,47 @@
+{
+  "name": "rn-autoheight-input",
+  "version": "1.0.0",
+  "description": "React Native TextInput with auto height and multiline support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariyd/rn-autoheight-input.git"
+  },
+  "keywords": [
+    "react-native",
+    "textInput",
+    "auto",
+    "grow",
+    "auto",
+    "height",
+    "multiline"
+  ],
+  "author": "Dariy Dzyndra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dariyd/rn-autoheight-input/issues"
+  },
+  "homepage": "https://github.com/dariyd/rn-autoheight-input#readme",
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.48.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-plugin-react-native": "^3.2.1",
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "22.1.4",
+    "react-test-renderer": "16.2.0"
+  }
+}

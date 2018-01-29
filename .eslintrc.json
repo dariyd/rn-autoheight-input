@@ -1,0 +1,52 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "globals": {
+        "__DEV__": true,
+        "__PROD__": true
+    },
+    "extends": ["airbnb", "eslint:recommended"],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "jsx": true
+        },
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "react-native"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "semi": [
+            "warn",
+            "always"
+        ],
+        "jsx-quotes": ["warn" , "prefer-double"],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "no-unused-vars": 1,
+        "no-console": 1,
+        "no-func-assign": 0,
+        "react-native/no-unused-styles": 1,
+        "react-native/split-platform-components": 2,
+        "react-native/no-inline-styles": 1,
+        "react-native/no-color-literals": 1,
+        "react/prefer-stateless-function" : 0,
+        "react/sort-comp": 0,
+        "react/jsx-boolean-value" :[2, "never", { "always": ["multiline"] } ]
+    }
+}
